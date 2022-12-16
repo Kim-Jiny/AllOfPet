@@ -9,20 +9,33 @@
 /* Begin PBXBuildFile section */
 		36D8F11B294B035D001BE50E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8F11A294B035D001BE50E /* AppDelegate.swift */; };
 		36D8F11D294B035D001BE50E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8F11C294B035D001BE50E /* SceneDelegate.swift */; };
-		36D8F11F294B035D001BE50E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8F11E294B035D001BE50E /* ViewController.swift */; };
 		36D8F122294B035D001BE50E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D8F120294B035D001BE50E /* Main.storyboard */; };
 		36D8F124294B035F001BE50E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D8F123294B035F001BE50E /* Assets.xcassets */; };
 		36D8F127294B035F001BE50E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D8F125294B035F001BE50E /* LaunchScreen.storyboard */; };
 		36D8F131294B04C6001BE50E /* NiblessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8F130294B04C6001BE50E /* NiblessViewController.swift */; };
 		36D8F133294B091D001BE50E /* UIViewController+OrientationLocked.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8F132294B091D001BE50E /* UIViewController+OrientationLocked.swift */; };
 		36D8F135294B0AD8001BE50E /* AppDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8F134294B0AD8001BE50E /* AppDependencyContainer.swift */; };
+		36D8F13B294BE626001BE50E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8F13A294BE626001BE50E /* Coordinator.swift */; };
+		36D8F13D294BE65C001BE50E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8F13C294BE65C001BE50E /* Router.swift */; };
+		36D8F140294BE7C3001BE50E /* RxBlocking-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 36D8F13F294BE7C3001BE50E /* RxBlocking-Dynamic */; };
+		36D8F142294BE7C3001BE50E /* RxCocoa-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 36D8F141294BE7C3001BE50E /* RxCocoa-Dynamic */; };
+		36D8F144294BE7C3001BE50E /* RxRelay-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 36D8F143294BE7C3001BE50E /* RxRelay-Dynamic */; };
+		36D8F146294BE7C3001BE50E /* RxSwift-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 36D8F145294BE7C3001BE50E /* RxSwift-Dynamic */; };
+		36D8F148294BE7C3001BE50E /* RxTest-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 36D8F147294BE7C3001BE50E /* RxTest-Dynamic */; };
+		36D8F14C294BEBD6001BE50E /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8F14B294BEBD6001BE50E /* MainCoordinator.swift */; };
+		36D8F157294BEDC2001BE50E /* SocialLoginMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8F155294BEDC2001BE50E /* SocialLoginMainVC.swift */; };
+		36D8F158294BEDC2001BE50E /* SocialLoginMainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D8F156294BEDC2001BE50E /* SocialLoginMainVC.xib */; };
+		36D8F15C294BEE4D001BE50E /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8F15B294BEE4D001BE50E /* UIView+Nib.swift */; };
+		36D8F160294BEF6E001BE50E /* UIViewController+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8F15F294BEF6E001BE50E /* UIViewController+Nib.swift */; };
+		36D8F163294BF2FB001BE50E /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 36D8F162294BF2FB001BE50E /* GoogleSignIn */; };
+		36D8F165294BF2FB001BE50E /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 36D8F164294BF2FB001BE50E /* GoogleSignInSwift */; };
+		36D8F167294BF6C4001BE50E /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36D8F166294BF6C4001BE50E /* credentials.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36D8F117294B035D001BE50E /* AllOfPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllOfPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D8F11A294B035D001BE50E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36D8F11C294B035D001BE50E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		36D8F11E294B035D001BE50E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36D8F121294B035D001BE50E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36D8F123294B035F001BE50E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36D8F126294B035F001BE50E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +43,14 @@
 		36D8F130294B04C6001BE50E /* NiblessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiblessViewController.swift; sourceTree = "<group>"; };
 		36D8F132294B091D001BE50E /* UIViewController+OrientationLocked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+OrientationLocked.swift"; sourceTree = "<group>"; };
 		36D8F134294B0AD8001BE50E /* AppDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencyContainer.swift; sourceTree = "<group>"; };
+		36D8F13A294BE626001BE50E /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		36D8F13C294BE65C001BE50E /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		36D8F14B294BEBD6001BE50E /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		36D8F155294BEDC2001BE50E /* SocialLoginMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginMainVC.swift; sourceTree = "<group>"; };
+		36D8F156294BEDC2001BE50E /* SocialLoginMainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SocialLoginMainVC.xib; sourceTree = "<group>"; };
+		36D8F15B294BEE4D001BE50E /* UIView+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		36D8F15F294BEF6E001BE50E /* UIViewController+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Nib.swift"; sourceTree = "<group>"; };
+		36D8F166294BF6C4001BE50E /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +58,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36D8F146294BE7C3001BE50E /* RxSwift-Dynamic in Frameworks */,
+				36D8F142294BE7C3001BE50E /* RxCocoa-Dynamic in Frameworks */,
+				36D8F165294BF2FB001BE50E /* GoogleSignInSwift in Frameworks */,
+				36D8F140294BE7C3001BE50E /* RxBlocking-Dynamic in Frameworks */,
+				36D8F148294BE7C3001BE50E /* RxTest-Dynamic in Frameworks */,
+				36D8F144294BE7C3001BE50E /* RxRelay-Dynamic in Frameworks */,
+				36D8F163294BF2FB001BE50E /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,14 +90,15 @@
 		36D8F119294B035D001BE50E /* AllOfPet */ = {
 			isa = PBXGroup;
 			children = (
+				36D8F149294BEA2D001BE50E /* Main */,
 				36D8F12E294B04A7001BE50E /* Common */,
 				36D8F11A294B035D001BE50E /* AppDelegate.swift */,
 				36D8F11C294B035D001BE50E /* SceneDelegate.swift */,
-				36D8F11E294B035D001BE50E /* ViewController.swift */,
 				36D8F120294B035D001BE50E /* Main.storyboard */,
 				36D8F123294B035F001BE50E /* Assets.xcassets */,
 				36D8F125294B035F001BE50E /* LaunchScreen.storyboard */,
 				36D8F128294B035F001BE50E /* Info.plist */,
+				36D8F166294BF6C4001BE50E /* credentials.plist */,
 			);
 			path = AllOfPet;
 			sourceTree = "<group>";
@@ -77,6 +106,8 @@
 		36D8F12E294B04A7001BE50E /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				36D8F159294BEE31001BE50E /* Extensions */,
+				36D8F137294BE5EC001BE50E /* CoreArchitecture */,
 				36D8F12F294B04AE001BE50E /* UI */,
 				36D8F134294B0AD8001BE50E /* AppDependencyContainer.swift */,
 			);
@@ -90,6 +121,98 @@
 				36D8F132294B091D001BE50E /* UIViewController+OrientationLocked.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		36D8F137294BE5EC001BE50E /* CoreArchitecture */ = {
+			isa = PBXGroup;
+			children = (
+				36D8F139294BE617001BE50E /* Core */,
+			);
+			path = CoreArchitecture;
+			sourceTree = "<group>";
+		};
+		36D8F139294BE617001BE50E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				36D8F13A294BE626001BE50E /* Coordinator.swift */,
+				36D8F13C294BE65C001BE50E /* Router.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		36D8F149294BEA2D001BE50E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				36D8F14E294BECC3001BE50E /* CalendarMain */,
+				36D8F14D294BECAB001BE50E /* Login */,
+				36D8F14A294BEBC9001BE50E /* Coordinator */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		36D8F14A294BEBC9001BE50E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				36D8F14B294BEBD6001BE50E /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		36D8F14D294BECAB001BE50E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				36D8F155294BEDC2001BE50E /* SocialLoginMainVC.swift */,
+				36D8F156294BEDC2001BE50E /* SocialLoginMainVC.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		36D8F14E294BECC3001BE50E /* CalendarMain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CalendarMain;
+			sourceTree = "<group>";
+		};
+		36D8F159294BEE31001BE50E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				36D8F15E294BEF5F001BE50E /* NIB */,
+				36D8F15D294BEF57001BE50E /* UIViewController */,
+				36D8F15A294BEE3A001BE50E /* UIView */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		36D8F15A294BEE3A001BE50E /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				36D8F168294BF8A4001BE50E /* UIButton */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		36D8F15D294BEF57001BE50E /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		36D8F15E294BEF5F001BE50E /* NIB */ = {
+			isa = PBXGroup;
+			children = (
+				36D8F15F294BEF6E001BE50E /* UIViewController+Nib.swift */,
+				36D8F15B294BEE4D001BE50E /* UIView+Nib.swift */,
+			);
+			path = NIB;
+			sourceTree = "<group>";
+		};
+		36D8F168294BF8A4001BE50E /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +231,15 @@
 			dependencies = (
 			);
 			name = AllOfPet;
+			packageProductDependencies = (
+				36D8F13F294BE7C3001BE50E /* RxBlocking-Dynamic */,
+				36D8F141294BE7C3001BE50E /* RxCocoa-Dynamic */,
+				36D8F143294BE7C3001BE50E /* RxRelay-Dynamic */,
+				36D8F145294BE7C3001BE50E /* RxSwift-Dynamic */,
+				36D8F147294BE7C3001BE50E /* RxTest-Dynamic */,
+				36D8F162294BF2FB001BE50E /* GoogleSignIn */,
+				36D8F164294BF2FB001BE50E /* GoogleSignInSwift */,
+			);
 			productName = AllOfPet;
 			productReference = 36D8F117294B035D001BE50E /* AllOfPet.app */;
 			productType = "com.apple.product-type.application";
@@ -136,6 +268,10 @@
 				Base,
 			);
 			mainGroup = 36D8F10E294B035D001BE50E;
+			packageReferences = (
+				36D8F13E294BE7C3001BE50E /* XCRemoteSwiftPackageReference "RxSwift" */,
+				36D8F161294BF2FB001BE50E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = 36D8F118294B035D001BE50E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -150,7 +286,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36D8F158294BEDC2001BE50E /* SocialLoginMainVC.xib in Resources */,
 				36D8F127294B035F001BE50E /* LaunchScreen.storyboard in Resources */,
+				36D8F167294BF6C4001BE50E /* credentials.plist in Resources */,
 				36D8F124294B035F001BE50E /* Assets.xcassets in Resources */,
 				36D8F122294B035D001BE50E /* Main.storyboard in Resources */,
 			);
@@ -163,12 +301,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36D8F11F294B035D001BE50E /* ViewController.swift in Sources */,
+				36D8F13D294BE65C001BE50E /* Router.swift in Sources */,
 				36D8F133294B091D001BE50E /* UIViewController+OrientationLocked.swift in Sources */,
 				36D8F131294B04C6001BE50E /* NiblessViewController.swift in Sources */,
+				36D8F160294BEF6E001BE50E /* UIViewController+Nib.swift in Sources */,
 				36D8F11B294B035D001BE50E /* AppDelegate.swift in Sources */,
 				36D8F135294B0AD8001BE50E /* AppDependencyContainer.swift in Sources */,
 				36D8F11D294B035D001BE50E /* SceneDelegate.swift in Sources */,
+				36D8F157294BEDC2001BE50E /* SocialLoginMainVC.swift in Sources */,
+				36D8F14C294BEBD6001BE50E /* MainCoordinator.swift in Sources */,
+				36D8F15C294BEE4D001BE50E /* UIView+Nib.swift in Sources */,
+				36D8F13B294BE626001BE50E /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +529,63 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		36D8F13E294BE7C3001BE50E /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 6.5.0;
+			};
+		};
+		36D8F161294BF2FB001BE50E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		36D8F13F294BE7C3001BE50E /* RxBlocking-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36D8F13E294BE7C3001BE50E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxBlocking-Dynamic";
+		};
+		36D8F141294BE7C3001BE50E /* RxCocoa-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36D8F13E294BE7C3001BE50E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxCocoa-Dynamic";
+		};
+		36D8F143294BE7C3001BE50E /* RxRelay-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36D8F13E294BE7C3001BE50E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxRelay-Dynamic";
+		};
+		36D8F145294BE7C3001BE50E /* RxSwift-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36D8F13E294BE7C3001BE50E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxSwift-Dynamic";
+		};
+		36D8F147294BE7C3001BE50E /* RxTest-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36D8F13E294BE7C3001BE50E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxTest-Dynamic";
+		};
+		36D8F162294BF2FB001BE50E /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36D8F161294BF2FB001BE50E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		36D8F164294BF2FB001BE50E /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36D8F161294BF2FB001BE50E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 36D8F10F294B035D001BE50E /* Project object */;
 }

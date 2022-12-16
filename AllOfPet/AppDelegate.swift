@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import GoogleSignIn
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -39,3 +40,5 @@ extension AppDelegate: OrientationLockedAppDelegate {
     return self.orientationLock
   }
 }
+
+
